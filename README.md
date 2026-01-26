@@ -1,47 +1,54 @@
-# Mohamed Imran | Senior Salesforce Administrator & Consultant
-**9x Certified Salesforce Professional | Top 1% Trailhead All-Star Ranger**
+![Portfolio Banner](assets/Portfolio.png)
 
-## Professional Summary
-Senior Salesforce Administrator with six years of experience managing enterprise environments (1,500+ users). I specialize in AI-powered automation (Agentforce), CPQ revenue operations, and event-driven architecture. My focus is on converting legacy technical debt into optimized, scalable Flow automation.
-
-* **Certifications:** Sales Cloud Consultant, Service Cloud Consultant, Platform Developer I, CPQ Specialist (in progress), Platform App Builder, Administrator.
-* **Key Tech:** Flow, Agentforce, Einstein AI, CPQ, Platform Events, Tableau.
+# ☁️ Mohamed Imran
+**Senior Salesforce Administrator & Consultant | 9x Certified | CPQ • RevOps • AI/Agentforce • Flow Automation | Transforming Revenue Operations with Data-Driven Solutions | Scaling Businesses Efficiently**
+*6+ Years Experience • 1,500+ Users Managed • Top 1% Trailhead All Star Ranger*
 
 ---
 
-## 📂 Project Portfolio
+## 👨‍💻 Professional Summary
+I am a **Senior Salesforce Administrator & Consultant** with six years of experience managing enterprise environments (1,500+ users) for organizations like **OneTrust** and **KinderCare**. I specialize in **AI-powered automation**, **CPQ revenue operations**, and **Event-Driven Architecture**.
 
-### [1. Enterprise Automation Series (5-Part Hub)](./project-1-flow-series.md)
-**Tech Stack:** Advanced Flow, Custom Metadata, Tableau, External Services
-A comprehensive 5-episode series solving complex business problems:
-* **Episode 1:** Smart Discount Guardrails (CPQ)
-* **Episode 2:** Smart Case Escalation (Scheduled Paths)
-* **Episode 3:** Customer Health Signal Hub (Platform Events)
-* **Episode 4:** Fair Workload Engine (Tableau Integration)
-* **Episode 5:** Real-Time Credit Risk Engine (HTTP Callouts)
+My focus is on **Digital Transformation**—moving beyond basic configuration to architect "Business Operating Systems" that solve root-cause problems. I have led end-to-end **Classic to Lightning migrations**, converted legacy technical debt into optimized Flow automation, and maintained **99% system uptime** through strict security compliance.
 
-### [2. Ethical AI Governance](./project-2-ai-trust.md)
-**Tech Stack:** Agentforce, Einstein Trust Layer
-Implementation of an Audit System to monitor AI toxicity and mask PII, ensuring safe and compliant AI deployment.
+---
 
-### [3. Automated Support Engine](./project-3-support-engine.md)
-**Tech Stack:** Service Cloud, Omni-Channel, Case Management
-Intelligent case-routing configuration with real-time analytics, designed for global service teams.
+## 🏆 Certifications (9x)
+| Core & Admin | Consultants & Developers | Specialized & AI |
+| :--- | :--- | :--- |
+| ☑️ Certified Administrator | ☑️ Sales Cloud Consultant | ☑️ AI Associate |
+| ☑️ Advanced Administrator | ☑️ Service Cloud Consultant | ☑️ Marketing Cloud Admin |
+| ☑️ Platform App Builder | ☑️ Platform Developer I | ☑️ Platform Foundations |
 
-### [4. Partner Onboarding Automation](./project-4-onboarding.md)
-**Tech Stack:** Flow Orchestrator, Experience Cloud
-Automated partner onboarding system using multi-step workflows to eliminate activation delays and "black hole" stalling.
+**Additional Credentials:**
+* **Trailhead All-Star Ranger:** 705+ Badges | 30 Superbadges
+* **MBA:** Strategic Management & Leadership (University of Gloucestershire)
 
-### [5. ApexFlow ERP: Supply Chain Automation](./project-5-supply-chain.md)
-**Tech Stack:** Apex, Advanced Flow, Integration
-End-to-end inventory management combining Apex and Flow for global vendor lifecycle automation.
+---
 
-### [6. Multi-Cloud Revenue Architecture](./project-6-revenue-arch.md)
-**Tech Stack:** Platform Events, Revenue Cloud
-Event-driven architecture automating Order-to-Cash workflows between Salesforce and external ERP systems.
+## 🛠️ Core Competencies & Tech Stack
+* **AI & Automation:** Agentforce, Einstein Trust Layer, Prompt Builder, Next Best Action.
+* **CPQ & RevOps:** Product Bundles, Price Rules, Quote-to-Cash, Subscription Management.
+* **Advanced Flow:** Record-Triggered, Screen Flows, Schedule-Triggered, Flow Orchestrator.
+* **Architecture:** Event-Driven Architecture (Platform Events), Async Apex, External Services (HTTP).
+* **Analytics:** CRM Analytics (Tableau CRM), Custom Report Types, Executive Dashboards.
+
+---
+
+## 🚀 Featured Portfolio Projects
+
+| Project | Role | Tech Stack |
+| :--- | :--- | :--- |
+| **[1. Enterprise Flow Series (5-Part Suite)](./project-1-flow-series)**<br>• *Smart Discount Guardrails (CPQ)*<br>• *Smart Case Escalation*<br>• *Customer Health Signal Hub*<br>• *Fair Workload Engine*<br>• *Real-Time Credit Risk Engine* | Senior Administrator | Advanced Flow, CPQ, HTTP Callouts |
+| **[2. Agentforce AI Trust Engine](./project-2-ai-trust)** | AI Architect | Einstein Trust Layer, Prompt Engineering |
+| **[3. Service Cloud Excellence](./project-3-service-cloud)** | Consultant | Omni-Channel, Escalation Rules |
+| **[4. Partner Onboarding (Orchestrator)](./project-4-orchestrator)** | Architect | Flow Orchestrator, Experience Cloud |
+| **[5. ApexFlow ERP (Supply Chain)](./project-5-erp)** | Lead Architect | Apex, Inventory Architecture, Batch Flow |
+| **[6. Event-Driven Revenue Architecture](./project-6-revenue)** | Solution Architect | Platform Events, Async Apex, Finance |
 
 ---
 
 ## 📬 Contact
-* [LinkedIn Profile](#) *(Edit this line with your actual URL)*
-* [Email Me](#) *(Edit this line with your actual Email)*
+* **LinkedIn:** [Connect with me on LinkedIn](https://www.linkedin.com/in/mohamedmunas/)
+* **Trailhead:** [View my Trailblazer Profile](https://www.salesforce.com/trailblazer/mohamedmunas)
+* **Email:** [mohamedimran.munas@gmail.com](mailto:mohamedimran.munas@gmail.com)
