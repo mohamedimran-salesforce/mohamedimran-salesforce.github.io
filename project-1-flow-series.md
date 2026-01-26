@@ -1,63 +1,81 @@
 # 🚀 5-Part Enterprise Automation Series
-**Role:** Lead Developer & Architect | **Stack:** Advanced Flow, Custom Metadata, Tableau, HTTP Callouts
+**Role:** Lead Developer & Architect | **Stack:** Advanced Flow, Custom Metadata, Tableau, External Services
 
 ## Overview
-This series demonstrates 5 real-world solutions to complex enterprise problems, utilizing 100% declarative tools (No-Code). Each episode focuses on a specific bottleneck—from CPQ margin protection to burnout prevention—and solves it using scalable architecture.
+This series demonstrates 5 real-world solutions to complex enterprise problems, utilizing 100% declarative tools (No-Code). Each episode focuses on scalable architecture, separating business logic (Custom Metadata) from automation (Flow) to ensure maintainability.
 
 ---
 
-## 📺 Episode 1: Smart Discount Guardrails for CPQ
-**The Problem:** Sales reps were applying high discounts without justification, eroding margins.
+## 📺 Episode 1: Smart Discount Guardrails (CPQ)
+**The Business Problem:**
+Sales reps were pushing high discounts to close deals without justification, eroding margins. Leadership needed a clear "approval story," but the logic lived in people's heads, leading to inconsistent enforcement.
+
 **The Solution:**
-* [cite_start]**Before-Save Flow:** Validates discounts against a policy stored in **Custom Metadata**[cite: 124, 125].
-* [cite_start]**Logic:** If the discount exceeds the threshold and no "Discount Reason" is provided, the Flow blocks the save with a custom error message[cite: 127].
-* [cite_start]**Impact:** Protects revenue and creates a clean approval history[cite: 136, 137].
+I built a lightweight guardrail on the **Quote** object using a **Before-Save Flow** (Fast Field Updates) for maximum performance.
+* **Configuration:** The discount threshold (e.g., 30%) is stored in a **Custom Metadata Type** (`Quote_Discount_Policy__mdt`), not hard-coded.
+* **Logic:** The Flow fetches the active policy using a "Get Records" element.
+* **Validation:** A Decision element checks if `Additional Disc %` ≥ `Threshold Percent`.
+* **UX:** If the validation fails, a **Custom Error** displays the message: *"A Discount Reason is required when Additional Discount is at or above the configured threshold."*
+
+**Tech Stack:**
+* `Quote` Object (Fast Field Updates)
+* `Quote_Discount_Policy__mdt` (Governance)
+* `Custom Error` Element (Inline Field Validation)
 
 ### 🎥 [Watch the Video Demo](https://drive.google.com/file/d/1xUdjBekTDRHmkHYyrLMM9cvpnLT7uWAI/view?usp=sharing)
 
 ---
 
 ## 📺 Episode 2: Smart Case Escalation (Scheduled Paths)
-[cite_start]**The Problem:** High-priority cases were missing SLAs because escalation relied on manual tracking[cite: 150].
+**The Business Problem:**
+High-priority cases were missing SLAs because escalation relied on manual tracking. There was no consistent way to route overdue cases to the right queue at the right time.
+
 **The Solution:**
-* [cite_start]**Scheduled Path Flow:** Checks if a Case is still open as the SLA approaches[cite: 155].
-* [cite_start]**Routing:** Automatically reassigns the case to an Escalation Queue based on priority mapping in Custom Metadata[cite: 153].
-* [cite_start]**Impact:** Ensures 100% SLA compliance without human intervention[cite: 165].
+* **Routing Logic:** A **Scheduled Path Flow** runs on the Case object. It checks if the Case is still open as the SLA approaches.
+* **Configuration:** A Custom Metadata Type maps Priority → SLA Minutes → Target Queue.
+* **Action:** Automatically reassigns the case to the correct `Escalation_Queue` and stamps an escalation reason without human intervention.
+
+**Tech Stack:**
+* Scheduled Paths (Batch Processing)
+* `Escalation_Target__c` (Dynamic SLA Formula)
+* Queue Routing via `Group` object
 
 ### 🎥 [Watch the Video Demo](https://drive.google.com/file/d/1EcAovQMf7OBIQvslsD5t7OkhRYwUArT4/view?usp=sharing)
 
 ---
 
-## 📺 Episode 3: Customer Health Signal Hub (Platform Events)
-[cite_start]**The Problem:** Customer health data (usage, billing) lived in external systems, leaving Sales blind to churn risks[cite: 177].
+## 📺 Episode 3: Customer Health Signal Hub (Event-Driven)
+**The Business Problem:**
+Customer health data (usage, billing, NPS) lived in external systems. Sales reps were "blind" to churn risks until it was too late.
+
 **The Solution:**
-* [cite_start]**Platform Events:** Created `Account_Health_Signal__e` to ingest signals from external apps[cite: 181].
-* **Event-Triggered Flow:** Updates the Account's health status in real-time and auto-generates high-priority tasks for Account Owners if health turns "Red"[cite: 188, 198].
-* [cite_start]**Impact:** Proactive churn prevention and real-time visibility[cite: 210].
+I architected an Event-Driven architecture using **Platform Events**:
+* **Ingestion:** External systems publish to `Account_Health_Signal__e` (High Volume Platform Event).
+* **Processing:** A Platform Event-Triggered Flow receives the signal, finds the related Account, and updates the `Health_Status__c`.
+* **Action:** If the status turns "Red," the Flow auto-generates a High-Priority Task for the Account Owner.
+* **Audit:** A child object `Account_Health_History__c` logs every signal for trend reporting.
+
+**Tech Stack:**
+* `Account_Health_Signal__e` (Pub/Sub Architecture)
+* `Account_Health_History__c` (Audit Trail)
+* Asynchronous Processing
 
 ### 🎥 [Watch the Video Demo](https://drive.google.com/file/d/1QonNytsyBKvcuyf-y-dOGGs7590XVSV4/view?usp=sharing)
 
 ---
 
 ## 📺 Episode 4: Fair Workload Engine (Tableau Integration)
-[cite_start]**The Problem:** Support cases were piling up on the same few people, leading to burnout[cite: 237].
+**The Business Problem:**
+Support cases and urgent tasks were piling up on the same few high-performers, leading to burnout. Managers lacked data to prove overload.
+
 **The Solution:**
-* **Scoring Logic:** A Scheduled Flow calculates a "Workload Score" for every user based on open cases and complexity[cite: 241].
-* [cite_start]**Visualization:** Data is pushed to **Tableau** to generate a heat map for managers to visualize team capacity[cite: 247].
-* [cite_start]**Impact:** Prevents burnout and ensures fair case distribution[cite: 268].
+* **Scoring Engine:** A Scheduled Flow runs nightly to calculate a "Workload Score" for every user based on Open Cases, Complexity, and Overdue Tasks.
+* **Snapshotting:** The score is saved to a `User_Workload_Snapshot__c` record.
+* **Visualization:** Data is pushed to **Tableau** to generate a "Heat Map," allowing managers to visualize burnout risk across the team.
 
-### 🎥 [Watch the Video Demo](https://drive.google.com/file/d/10bP5eluKT8ZAW30VhqUvD7x9gRf1ut6d/view?usp=sharing)
+**Tech Stack:**
+* `User_Workload_Snapshot__c` (Historical Data)
+* `Workload_Policy_mdt` (Risk Thresholds)
+* Tableau Integration for Analytics
 
----
-
-## 📺 Episode 5: Real-Time Credit Risk Engine (HTTP Callouts)
-[cite_start]**The Problem:** Sales reps were negotiating deals with clients who had poor credit, leading to rejected contracts[cite: 285].
-**The Solution:**
-* [cite_start]**HTTP Callout (GET):** Connects Salesforce to an external banking API via **External Services**[cite: 297].
-* **Automation:** Triggered instantly when an Opportunity reaches "Negotiation," fetching the credit score without code[cite: 289].
-* [cite_start]**Impact:** Reduces the credit check cycle from days to seconds[cite: 296].
-
-### 🎥 [Watch the Video Demo](https://drive.google.com/file/d/1a12sz3d75qFqJhTP-zynUyzGtTZw3g6m/view?usp=sharing)
-
----
-[Return to Home](./)
+### 🎥 [Watch the Video Demo](
