@@ -1,5 +1,4 @@
-![Portfolio Banner](assets/Portfolio.png)
-
+<img src="./assets/Portfolio.png" alt="Portfolio Banner" width="100%">
 # ☁️ Mohamed Imran
 **Senior Salesforce Administrator & Consultant | 9x Certified | CPQ • RevOps • AI/Agentforce • Flow Automation | Transforming Revenue Operations with Data-Driven Solutions | Scaling Businesses Efficiently**
 *6+ Years Experience • 1,500+ Users Managed • Top 1% Trailhead All Star Ranger*
