@@ -1,7 +1,7 @@
 # ⚙️ Service Cloud: Automated Support Engine
 **Role:** Senior Salesforce Administrator | **Stack:** Service Cloud, Omni-Channel, Einstein, Case Management
 
-![Cover Image](assets/Sc-cover.jpg)
+![Cover Image](assets/Sc-cover.png)
 
 ## 📌 Project Objective
 **Architecting the Future of Service:** I designed an intelligent case routing system with Omni-Channel configuration and real-time analytics to replace manual triage, ensuring 100% of high-priority cases meet their SLAs.
@@ -34,7 +34,7 @@ Agents were overwhelmed by uneven workloads. Some had 10 active cases while othe
 ### 📸 Implementation Gallery
 ![Routing Configuration](assets/Sc-02.png)
 ![Presence Statuses](assets/Sc-03.png)
-![Omni-Channel Console Utility](assets/Sc-04.jpg)
+![Omni-Channel Console Utility](assets/Sc-04.png)
 
 ---
 
