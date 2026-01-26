@@ -7,6 +7,10 @@
 ## 📌 Project Objective
 **Architect an automated governance framework** to capture, audit, and adjudicate AI-generated interactions in real-time. This system ensures Enterprise AI is safe, auditable, and compliant with strict regulatory requirements.
 
+### 🎥 Project Demos
+* **[Watch the Full Walkthrough Video](https://drive.google.com/file/d/17tjqF79iutNHqu6eUVmGkewcUi0b4fpy/view?usp=sharing)**
+* **[Watch the Debug & Testing Video](https://drive.google.com/file/d/16k6MdBG0G3mmhY3SnaQUy5qpdD-Xd98A/view?usp=sharing)**
+
 ---
 
 ## 🚫 1. Business Problem & Solution
