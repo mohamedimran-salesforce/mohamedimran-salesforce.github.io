@@ -7,8 +7,7 @@ This series demonstrates 5 real-world solutions to complex enterprise problems, 
 ---
 
 ## 📺 Episode 1: Smart Discount Guardrails (CPQ)
-![Cover Image](assets/Episode1-1 cover pictures.png)
-
+![Cover Image](assets/Episode1-1%20cover%20pictures.jpg)
 ### The Business Problem
 Sales teams were pushing high discounts to close deals without justification, eroding margins. Leadership needed a clear "approval story," but the logic lived in people's heads, leading to inconsistent enforcement.
 
