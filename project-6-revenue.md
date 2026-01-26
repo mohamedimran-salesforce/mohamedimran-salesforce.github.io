@@ -6,7 +6,7 @@
 ## 📌 Project Objective
 **Architecting Enterprise RevOps:** I designed an enterprise-grade "Lead-to-Cash" engine to decouple high-volume sales transactions from financial processing. By transitioning from synchronous record-triggered flows to an **Event-Driven Architecture (EDA)**, the system eliminates database locking errors and establishes a scalable foundation for future ERP integrations (e.g., NetSuite/SAP).
 
-### 🎥 [Watch the Project Demo]([INSERT VIDEO LINK HERE])
+### 🎥 [Watch the Project Demo](https://drive.google.com/file/d/1UuQH5x9_qPhjVdDo6uUaw1JVe2Gtjp4k/view?usp=sharing)
 
 ---
 
