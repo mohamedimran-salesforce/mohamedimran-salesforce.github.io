@@ -1,7 +1,7 @@
 # 📦 ApexFlow ERP: End-to-End Supply Chain Automation
 **Role:** Lead Developer & Architect | **Stack:** Apex, Advanced Flow, Supply Chain Architecture
 
-![Cover Image](assets/erp-cover.png)
+![Cover Image](assets/Screenshot%202026-01-01%20135934.png)
 
 ## 📌 Project Objective
 **From CRM to ERP:** In this flagship project, I moved beyond standard CRM configuration to architect a "Business Operating System." I built a native ERP engine inside Salesforce to solve the "Quote-to-Cash" latency gap, achieving a "Zero-Touch" Supply Chain where closed deals drive logistics in real-time.
@@ -25,7 +25,8 @@ I eliminated spreadsheets by designing a custom relational schema.
 * **Data Model:** Accounts (Vendors), Warehouses, and Inventory Ledgers are now mathematically linked to Opportunities.
 * **Impact:** Sales and Operations always see the exact same real-time data.
 
-![Data Architecture](assets/erp-1.png)
+### 📸 Data Model & Schema
+![Data Architecture](assets/Screenshot%202026-01-01%20131304.png)
 
 ---
 
@@ -34,7 +35,9 @@ I replaced manual data entry with event-driven automation:
 * **Demand:** Sales immediately deplete inventory counts upon Opportunity Close.
 * **Supply:** Low stock levels automatically trigger Purchase Order generation, preventing stockouts before they happen.
 
-![Procurement UI](assets/erp-3.png)
+### 📸 Automation in Action
+![Procurement UI](assets/Screenshot%202026-01-01%20131508.png)
+![Line Item Logic](assets/Screenshot%202026-01-01%20131840.png)
 
 ---
 
@@ -44,7 +47,13 @@ I replaced manual data entry with event-driven automation:
 * **Loop-Collection-Commit Pattern:** I built an advanced Flow that processes bulk line items in a single transaction.
 * **Scalability:** The system handles massive inventory updates without timing out or hitting SOQL limits.
 
-![Flow Logic](assets/erp-2.png)
+### 📸 Flow Logic & Governance
+![Complex Flow Logic](assets/image.png)
+![Loop Logic](assets/image%20(2).png)
+![Record Creation](assets/image%20(1).png)
+
+### 📸 Analytics
+![Dashboard](assets/image%20(3).png)
 
 ---
 [Return to Home](./)
