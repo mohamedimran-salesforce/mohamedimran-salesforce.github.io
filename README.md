@@ -1,6 +1,5 @@
 <img src="./assets/Portfolio.png" alt="Portfolio Banner" width="100%">
 
-# ☁️ Mohamed Imran
 **Senior Salesforce Administrator & Consultant | 9x Certified | CPQ • RevOps • AI/Agentforce • Flow Automation**
 *6+ Years Experience • 1,500+ Users Managed • Top 1% Trailhead All Star Ranger*
 
@@ -14,17 +13,17 @@ My focus is on **Digital Transformation**—moving beyond basic configuration to
 ---
 
 ## 🏆 Certifications & Credentials
-* ☑️ **Salesforce Certified Administrator**
-* ☑️ **Salesforce Certified Advanced Administrator**
-* ☑️ **Salesforce Certified Sales Cloud Consultant**
-* ☑️ **Salesforce Certified Service Cloud Consultant**
-* ☑️ **Salesforce Certified Platform Developer I**
-* ☑️ **Salesforce Certified Platform App Builder**
-* ☑️ **Salesforce Certified AI Associate**
-* ☑️ **Salesforce Certified Marketing Cloud Engagement Administrator**
-* ☑️ **Salesforce Certified Associate**
-* 🏔️ **Trailhead All-Star Ranger:** 705+ Badges | 30 Superbadges
-* 🤖 **Agentforce Innovator 2026**
+*  **Salesforce Certified Administrator**
+*  **Salesforce Certified Advanced Administrator**
+*  **Salesforce Certified Sales Cloud Consultant**
+*  **Salesforce Certified Service Cloud Consultant**
+*  **Salesforce Certified Platform Developer I**
+*  **Salesforce Certified Platform App Builder**
+*  **Salesforce Certified AI Associate**
+*  **Salesforce Certified Marketing Cloud Engagement Administrator**
+*  **Salesforce Certified Associate**
+*  **Trailhead All-Star Ranger:** 705+ Badges,30 Superbadges
+*  **Agentforce Innovator 2026**
 
 ---
 
