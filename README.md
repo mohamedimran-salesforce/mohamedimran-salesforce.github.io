@@ -1,12 +1,13 @@
 <img src="./assets/Portfolio.png" alt="Portfolio Banner" width="100%">
+
 # ☁️ Mohamed Imran
-**Senior Salesforce Administrator & Consultant | 9x Certified | CPQ • RevOps • AI/Agentforce • Flow Automation | Transforming Revenue Operations with Data-Driven Solutions | Scaling Businesses Efficiently**
+**Senior Salesforce Administrator & Consultant | 9x Certified | CPQ • RevOps • AI/Agentforce • Flow Automation**
 *6+ Years Experience • 1,500+ Users Managed • Top 1% Trailhead All Star Ranger*
 
 ---
 
 ## 👨‍💻 Professional Summary
-I am a **Senior Salesforce Administrator & Consultant** with six years of experience managing enterprise environments (1,500+ users) for organizations like **OneTrust** and **KinderCare**. I specialize in **AI-powered automation**, **CPQ revenue operations**, and **Event-Driven Architecture**.
+I am a **Senior Salesforce Administrator & Consultant** with six years of experience managing enterprise environments (1,500+ users) for **major global organizations**. I specialize in **AI-powered automation**, **CPQ revenue operations**, and **Event-Driven Architecture**.
 
 My focus is on **Digital Transformation**—moving beyond basic configuration to architect "Business Operating Systems" that solve root-cause problems. I have led end-to-end **Classic to Lightning migrations**, converted legacy technical debt into optimized Flow automation, and maintained **99% system uptime** through strict security compliance.
 
