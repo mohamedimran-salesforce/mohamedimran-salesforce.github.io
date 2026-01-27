@@ -14,15 +14,23 @@ My focus is on **Digital Transformation**—moving beyond basic configuration to
 ---
 
 ## 🏆 Certifications (9x)
-| Core & Admin | Consultants & Developers | Specialized & AI |
-| :--- | :--- | :--- |
-| ☑️ Certified Administrator | ☑️ Sales Cloud Consultant | ☑️ AI Associate |
-| ☑️ Advanced Administrator | ☑️ Service Cloud Consultant | ☑️ Marketing Cloud Admin |
-| ☑️ Platform App Builder | ☑️ Platform Developer I | ☑️ Platform Foundations |
+* ☑️ **Salesforce Certified Administrator**
+* ☑️ **Salesforce Certified Advanced Administrator**
+* ☑️ **Salesforce Certified Sales Cloud Consultant**
+* ☑️ **Salesforce Certified Service Cloud Consultant**
+* ☑️ **Salesforce Certified Platform Developer I**
+* ☑️ **Salesforce Certified Platform App Builder**
+* ☑️ **Salesforce Certified AI Associate**
+* ☑️ **Salesforce Certified Marketing Cloud Engagement Administrator**
+* ☑️ **Salesforce Certified Platform Foundations**
 
-**Additional Credentials:**
+**Trailhead All-Star Ranger Achievement:**
 * **Trailhead All-Star Ranger:** 705+ Badges | 30 Superbadges
-* **MBA:** Strategic Management & Leadership (University of Gloucestershire)
+* **AgentForce Innovator** 
+
+**Education:**
+* **Master of Business Administration (MBA):** Strategic Management & Leadership (University of Gloucestershire)
+* **Bachelor of Science (BS):** Computer Science and Networking (IIC University of Technology)
 
 ---
 
