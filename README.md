@@ -57,6 +57,8 @@ My focus is on **Digital Transformation**—moving beyond basic configuration to
 | **[4. Partner Onboarding (Orchestrator)](./project-4-orchestrator)** | Architect | Flow Orchestrator, Experience Cloud |
 | **[5. ApexFlow ERP (Supply Chain)](./project-5-erp)** | Lead Architect | Apex, Inventory Architecture, Batch Flow |
 | **[6. Event-Driven Revenue Architecture](./project-6-revenue)** | Solution Architect | Platform Events, Async Apex, Finance |
+| **[7. Autonomous Aid: The Agentforce-Powered Nonprofit Cloud](./project-7-autonomous-aid-nonprofit-ai)** | Lead Solution Architect & Developer | Flow Orchestrator, Agentforce (Prompt Builder), Platform Events, Apex |
+
 
 ---
 
