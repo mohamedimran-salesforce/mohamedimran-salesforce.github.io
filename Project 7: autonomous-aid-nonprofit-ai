@@ -1,5 +1,5 @@
 # 📺 Project: Autonomous Aid (Agentforce & Orchestrator)
-![Cover Image](assets/banner-image.jpg)
+![Cover Image](assets/NP cover image.png)
 
 ## The Business Problem
 Humanitarian organizations face a "Black Box" problem during crises. Grant approvals sit in email inboxes while field teams wait for funds (latency), and donors rarely receive specific updates on how their money was used until months later (transparency), leading to poor donor retention.
@@ -17,7 +17,7 @@ Humanitarian organizations face a "Black Box" problem during crises. Grant appro
 
 #### 1. Architecture & Data Model
 *A lean, custom schema designed for high-speed data entry, triggered by external signals.*
-![Schema & Fields](assets/np-01.jpg)
+![Schema & Fields](assets/np-01.png)
 ![Platform Event Definition](assets/np-02.png)
 ![Event Listener Flow](assets/np-07.png)
 
