@@ -9,7 +9,7 @@ Humanitarian organizations face a "Black Box" problem during crises. Grant appro
 * **Orchestration Engine:** A **Flow Orchestrator** manages the lifecycle, enforcing a "Stage Lock" where Finance cannot approve funds until Field Assessments are verified.
 * **AI Stewardship:** I deployed **Agentforce Prompt Builder** to read specific grant outcomes (e.g., "1,000 Tarps") and auto-generate personalized, hallucination-free impact emails to donors.
 
-### 🎥 [Watch the Video Demo](#) *(Link coming soon)*
+### 🎥 [Watch the Video Demo] *(https://drive.google.com/file/d/1uwW6kgHTgFpCL2A0CS1JsNN-vr5zn77M/view?usp=sharing)**
 
 ---
 
