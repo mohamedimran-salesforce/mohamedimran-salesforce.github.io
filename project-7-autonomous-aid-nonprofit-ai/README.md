@@ -1,5 +1,5 @@
 # 📺 Project: Autonomous Aid (Agentforce & Orchestrator)
-![Cover Image](project-7-autonomous-aid-nonprofit-ai/assets/NP-cover-image.png)
+![Cover Image](assets/NP-cover-image.png)
 
 ## The Business Problem
 Humanitarian organizations face a "Black Box" problem during crises. Grant approvals sit in email inboxes while field teams wait for funds (latency), and donors rarely receive specific updates on how their money was used until months later (transparency), leading to poor donor retention.
@@ -23,7 +23,7 @@ Humanitarian organizations face a "Black Box" problem during crises. Grant appro
 
 #### 2. The Engine (Flow Orchestrator)
 *The master workflow that manages state transitions between Field Officers and Finance Managers.*
-![Orchestrator Canvas](assets/NP-03.png)
+![Orchestrator Canvas](assets/np-03.png)
 
 #### 3. Sub-Flow Automation
 *Decoupled screen flows that capture structured data at every stage of the lifecycle.*
@@ -34,7 +34,7 @@ Humanitarian organizations face a "Black Box" problem during crises. Grant appro
 #### 4. AI Layer (Agentforce)
 *The "Glass Box" solution: Converting raw field data into emotional donor impact stories.*
 ![Prompt Builder Template](assets/np-08.png)
-![Einstein Generation Action](assets/np-09.jpg)
+![Einstein Generation Action](assets/np-09.png)
 ![Final AI Generated Email](assets/np-10.png)
 
 ---
