@@ -1,5 +1,5 @@
 # 📺 Project: Autonomous Aid (Agentforce & Orchestrator)
-![Cover Image](assets/NP cover image.png)
+![Cover Image](assets/NP-cover-image.png)
 
 ## The Business Problem
 Humanitarian organizations face a "Black Box" problem during crises. Grant approvals sit in email inboxes while field teams wait for funds (latency), and donors rarely receive specific updates on how their money was used until months later (transparency), leading to poor donor retention.
