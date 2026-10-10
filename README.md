@@ -1,5 +1,3 @@
-<img src="./assets/Portfolio.png" alt="Portfolio Banner" width="100%">
-
 # Mohamed Imran
 **Salesforce Consultant & QA Engineer | Federal Public Sector | 11x Salesforce Certified**
 
