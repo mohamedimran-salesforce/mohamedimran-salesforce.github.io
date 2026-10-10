@@ -87,6 +87,6 @@ Seven case studies (the Flow Project holds five episodes). Each page links its v
 
 ## 📬 Contact
 * **LinkedIn:** [linkedin.com/in/mohamedmunas](https://www.linkedin.com/in/mohamedmunas/)
-* **Resume:** [Google Drive](https://drive.google.com/file/d/1OrP90aFyNe6vFv5mBTEvThRaS8c3tEyU/view?usp=sharing)
+* **Resume:** [PDF](./assets/Mohamed_Imran_Resume.pdf) | [Word](./assets/Mohamed_Imran_Resume.docx)
 * **Trailhead:** [Trailblazer profile](https://www.salesforce.com/trailblazer/mohamedmunas)
 * **Email:** [mohamedimran.munas@gmail.com](mailto:mohamedimran.munas@gmail.com)
