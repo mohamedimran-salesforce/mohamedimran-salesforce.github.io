@@ -1,5 +1,5 @@
 # Mohamed Imran
-**Salesforce Consultant & QA Engineer | Federal Public Sector | 11x Salesforce Certified**
+**Salesforce Consultant & QA Engineer | Flow | CPQ | Agentforce | Test Automation | 11x Salesforce Certified**
 
 I started my career breaking software: writing Selenium scripts, hunting bugs, and studying how systems fail. Today I build Salesforce solutions and test them with the same rigor, so what ships to production works the first time.
 
