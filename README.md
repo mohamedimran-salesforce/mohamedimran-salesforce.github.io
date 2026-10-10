@@ -32,7 +32,7 @@ Client names withheld.
 | **Permissions & Role-Based Access Validation** | Permissions, role metrics, function sets |
 | **Environment & Dependency Risk Analysis** | QA sandbox, shared-org SIT conflict, MuleSoft IL2 vs IL5 |
 | **Salesforce QA Framework: Phase-Gated Methodology** | Phases 0 to 7, traceability, entry/exit criteria, bug-validation rule |
-| **Test Automation Framework** | Selenium, Java, TestNG, Cucumber, Maven, Jenkins, Postman, RestAssured |
+| **[Test Automation Framework](https://github.com/mohamedimran-salesforce/salesforce-qa-automation-framework)** ([live test report](https://mohamedimran-salesforce.github.io/salesforce-qa-automation-framework/)) | Selenium, Java, TestNG, Cucumber, Maven, RestAssured, GitHub Actions CI |
 | **Salesforce QA Workbench** | Local tool that generates QA artifacts with the Anthropic API |
 
 ---
