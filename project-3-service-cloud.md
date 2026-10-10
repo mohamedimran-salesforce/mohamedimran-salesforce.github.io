@@ -1,10 +1,10 @@
 # ⚙️ Service Cloud: Automated Support Engine
-**Role:** Senior Salesforce Administrator | **Stack:** Service Cloud, Omni-Channel, Einstein, Case Management
+**Role:** Solution Designer & Builder (personal portfolio project) | **Stack:** Service Cloud, Omni-Channel, Escalation Rules, Dashboards
 
 ![Cover Image](assets/Sc-cover.png)
 
 ## 📌 Project Objective
-**Architecting the Future of Service:** I designed an intelligent case routing system with Omni-Channel configuration and real-time analytics to replace manual triage, ensuring 100% of high-priority cases meet their SLAs.
+**Architecting the Future of Service:** I designed an intelligent case routing system with Omni-Channel configuration and real-time analytics to replace manual triage, with automatic escalation of stagnant high-priority cases.
 
 ### 🎥 [Watch the Project Demo](https://drive.google.com/file/d/1gDqGfHNWODq6FXfxxxOrVxLB09XtYC90/view?usp=sharing)
 
@@ -16,7 +16,7 @@ Support agents were manually "cherry-picking" easy cases, leaving difficult, hig
 
 **The Solution:**
 * **Case Assignment Rules:** Configured logic to instantly categorize and route tickets based on Product Type and Urgency.
-* **Zero-Touch Triage:** Replaced manual dispatching with a rules-based assignment engine.
+* **Automated Triage:** Replaced manual dispatching with a rules-based assignment engine.
 
 ![Case Assignment Rules](assets/Sc-01.png)
 

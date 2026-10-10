@@ -1,5 +1,5 @@
 # 💸 Event-Driven Revenue Provisioning (Multi-Cloud Ready)
-**Role:** Senior Salesforce Administrator & Consultant | **Stack:** Platform Events, Flow Orchestrator, Async Apex/Flow
+**Role:** Solution Designer & Builder (personal portfolio project) | **Stack:** Platform Events, Flow Orchestrator, Async Apex/Flow
 
 ![Cover Image](assets/image.png)
 
@@ -68,8 +68,8 @@ The system provides immediate financial visibility without waiting for nightly b
 ![Revenue Dashboard](assets/Screenshot%202026-01-04%20183945.png)
 
 ### 🏆 Key Outcomes
-* **Scalability:** Processed 10,000+ transactions during stress testing with zero lock errors.
-* **Integration Ready:** The Platform Event bus is ready to hook into MuleSoft for external ERP syncing without changing a single line of Salesforce configuration.
+* **Scalability:** Designed to absorb high-volume transactions asynchronously, away from the Sales user session.
+* **Integration Ready:** The Platform Event bus is designed for a MuleSoft / ERP subscriber. The connector is not built in this project.
 
 ---
 [Return to Home](./)

@@ -24,7 +24,7 @@ I designed a lean, custom schema to support high-speed data entry without the ov
 - To simulate an integration with external weather warning systems, I utilized Salesforce Platform Events.
 
 - **Event Definition:** Created `Disaster_Signal__e` to carry payload data like `Severity_Level__c` and `Region__c`.
-- **The Listener:** Built a Platform-Event Triggered Flow (`Disaster Signal Listener`) that "listens" for these signals and instantly creates the Grant record, launching the orchestration 0.5 seconds after the event occurs.
+- **The Listener:** Built a Platform-Event Triggered Flow (`Disaster Signal Listener`) that "listens" for these signals and instantly creates the Grant record, launching the orchestration as soon as the event is published.
 ![Schema & Fields](../assets/np-01.png)
 ![Platform Event Definition](../assets/np-02.png)
 ![Event Listener Flow](../assets/np-07.png)

@@ -1,5 +1,5 @@
 # 🛡️ Agentforce AI Trust & Compliance Audit System
-**Role:** Senior Salesforce Administrator & Consultant
+**Role:** Solution Designer & Builder (personal portfolio project)
 **Tools:** Agentforce (Einstein Copilot), Einstein Trust Layer, Salesforce Flow, Custom Objects
 
 ![Cover Image](assets/ai-cover%20image.jpg)
@@ -90,7 +90,7 @@ I selected an Autolaunched Flow to act as the synchronous API between Agentforce
 ![Audit Record Result](assets/ai-4.jpg)
 
 ### 🏆 Key Outcomes
-* **100% Visibility:** Eliminated the "black box" risk by capturing every user prompt and AI response into a permanent, legal-grade audit log.
+* **Full Logging:** Removed the "black box" risk by capturing each user prompt and AI response into a permanent audit log.
 * **Automated Compliance:** Replaced manual review with real-time logic, instantly segregating safe interactions from toxic ones.
 * **Scalable Architecture:** Decoupled the AI layer from the data layer using an Autolaunched Flow API, allowing for rapid logic updates without redeploying the Agent.
 

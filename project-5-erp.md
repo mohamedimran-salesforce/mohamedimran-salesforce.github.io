@@ -1,12 +1,12 @@
 # 📦 ApexFlow ERP: End-to-End Supply Chain Automation
-**Role:** Lead Developer & Architect | **Stack:** Apex, Advanced Flow, Supply Chain Architecture
+**Role:** Solution Designer & Builder (personal portfolio project) | **Stack:** Advanced Flow, Custom Schema, Supply Chain Architecture
 
 ![Cover Image](assets/Screenshot%202026-01-01%20135934.png)
 
 ## 📌 Project Objective
-**From CRM to ERP:** In this flagship project, I moved beyond standard CRM configuration to architect a "Business Operating System." I built a native ERP engine inside Salesforce to solve the "Quote-to-Cash" latency gap, achieving a "Zero-Touch" Supply Chain where closed deals drive logistics in real-time.
+**From CRM to ERP:** In this flagship project, I moved beyond standard CRM configuration to architect a "Business Operating System." I built a native ERP engine inside Salesforce to solve the "Quote-to-Cash" latency gap, so closed deals update inventory and trigger purchase orders automatically.
 
-### 🎥 [Watch the Project Demo](https://drive.google.com/file/d/1UuQH5x9_qPhjVdDo6uUaw1JVe2Gtjp4k/view?usp=sharing)
+### 🎥 [Watch the Project Demo](https://drive.google.com/file/d/1dhALngRdFyO7gs4CLMlvFdJ99dAiUfPp/view?usp=sharing)
 
 ---
 
@@ -45,7 +45,7 @@ I replaced manual data entry with event-driven automation:
 **The Challenge:** Processing "Goods Receipt" (large inbound shipments with hundreds of line items) often hits Salesforce Governor Limits.
 **The Fix:**
 * **Loop-Collection-Commit Pattern:** I built an advanced Flow that processes bulk line items in a single transaction.
-* **Scalability:** The system handles massive inventory updates without timing out or hitting SOQL limits.
+* **Scalability:** The system handles massive inventory updates without timing out or hitting DML limits.
 
 ### 📸 Flow Logic & Governance
 ![Complex Flow Logic](assets/image.png)

@@ -1,5 +1,5 @@
 # 🚀 5-Part Enterprise Automation Series
-**Role:** Sr.salesforce Admin/Consultant & Architect | **Stack:** Advanced Flow, Custom Metadata, Tableau, External Services
+**Role:** Solution Designer & Builder (personal portfolio project) | **Stack:** Advanced Flow, Custom Metadata, Tableau, External Services
 
 ## Overview
 This series demonstrates 5 real-world solutions to complex enterprise problems, utilizing 100% declarative tools (No-Code). Each episode focuses on scalable architecture, separating business logic (Custom Metadata) from automation (Flow) to ensure maintainability.

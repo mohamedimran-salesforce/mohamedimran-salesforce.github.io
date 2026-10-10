@@ -1,10 +1,10 @@
-# 🤝 Onboarding Black Hole" with Salesforce Flow Orchestrator & Experience Cloud
-**Role:** Senior Salesforce Administrator | **Stack:** Flow Orchestrator, Experience Cloud, Screen Flows
+# 🤝 Onboarding Black Hole: Salesforce Flow Orchestrator & Experience Cloud
+**Role:** Solution Designer & Builder (personal portfolio project) | **Stack:** Flow Orchestrator, Experience Cloud, Screen Flows
 
 ![Cover Image](assets/Screenshot%202026-01-10%20173450.png)
 
 ## 📌 Project Objective
-**Solving the "Onboarding Black Hole":** I built a Stage-Based Orchestration System that automates the entire partner lifecycle. It seamlessly routes work items between an external Experience Cloud Portal (for partners) and the Internal CRM (for security teams), ensuring zero data loss and 100% process visibility.
+**Solving the "Onboarding Black Hole":** I built a Stage-Based Orchestration System that automates the entire partner lifecycle. It seamlessly routes work items between an external Experience Cloud Portal (for partners) and the Internal CRM (for security teams), giving full process visibility.
 
 ### 🎥 [Watch the Video Demo](https://drive.google.com/file/d/1RPAhUzoYk8dW7PkVC8P7YhWcitl7bYC1/view?usp=sharing)
 
